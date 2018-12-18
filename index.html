@@ -1,0 +1,57 @@
+<!--
+ COMP 4610 91.61 GUI Programming I
+ Erika Spehlmann erika_spehlmann@student.uml.edu
+ Last updated: December 17, 2018
+ Copyright (c) 2018 by Erika Spehlmann. All rights reserved.
+ This webpage creates a game of Scrabble using jQuery UI
+
+ This is the outline of the page. It created a grid for the board.
+-->
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+      <link rel="stylesheet" href="css/style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Homework 9</title>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body>
+<h1><br>SCRABBLE <br> <br> </h1>
+<div id="board">
+  <div id = "space1" class="grid-item">1.</div>
+  <div id = "space2" class="grid-item">.2.</div>
+  <div id = "space3" class="grid-item">.3.</div>
+  <div id = "space4" class="grid-item">.4.</div>
+  <div id = "space5" class="grid-item">.5.</div>
+  <div id = "space6" class="grid-item">6.</div>
+  <div id = "space7" class="grid-item">.7.</div>
+  <div id = "space8" class="grid-item">.8.</div>
+  <div id = "space9" class="grid-item">.9.</div>
+  <div id = "space10" class="grid-item">10</div>
+  <div id = "space11" class="grid-item">11</div>
+  <div id = "space12" class="grid-item">12</div>
+  <div id = "space13" class="grid-item">13</div>
+  <div id = "space14" class="grid-item">14</div>
+  <div id = "space15" class="grid-item">15</div>
+  <br><br>
+</div>
+<div id="tileRack">
+</div>
+<br>
+  <div id="tiles">
+    <div id="tile1"> </div>
+    <div id="tile2"> </div>
+    <div id="tile3"> </div>
+    <div id="tile4"></div>
+    <div id="tile5"></div>
+    <div id="tile6"></div>
+    <div id="tile7"></div>
+  </div> <br><br>
+  <button type="button" onclick="newTiles();"> New Tiles Please!</button> <br><br>
+<div id="score"></div>
+<script type='text/javascript' src="js/js.js"></script>
+</body>
+</html>
