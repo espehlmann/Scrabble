@@ -1,0 +1,86 @@
+/*
+ COMP 4610 91.61 GUI Programming I
+ Erika Spehlmann erika_spehlmann@student.uml.edu
+ Last updated: December 17, 2018
+ Copyright (c) 2018 by Erika Spehlmann. All rights reserved.
+ This webpage creates a game of Scrabble using jQuery UI
+
+ This file will style the page.
+*/
+
+/* Wrapper for body */
+body{
+    background: url(../images/tree.jpg) center center;
+    background-size: cover;
+    height: 100%;
+    margin: auto;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    border: 10px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: table;
+}
+
+/* Header */
+h1{
+  margin: auto;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 84px;
+  color: red;
+  letter-spacing: 5px;
+}
+
+div{
+  margin:auto;
+  align-items: center;
+  display:inline;
+  padding:10px;
+}
+
+#tileRack{
+  margin:auto;
+  width:50%;
+}
+
+/* the board will be a grid with 15 columns and one row*/
+#board{
+  background: url(../images/Scrabble_Board_OneLine.png) center center;
+  background-size: cover;
+  margin: auto;
+  display: inline grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+  text-align: center;
+  font-size: 39px;
+  color: rgba(0, 0, 0, 0.0);
+  }
+
+/* make the background of this div the tile rack */
+#tiles {
+  background: url(../images/tile-rack.png) center center;
+  width: 8%;
+  height: 8%;
+  padding: 0.5em;
+  display: inline;
+}
+
+/*Each tile piece should fit in the board */
+.pieces{
+  width:56px;
+  display:inline;
+}
+
+.grid-item{
+ column-width: 100%;
+ margin:auto;
+}
+
+/* Score and word div */
+#score {
+  background: white;
+  font-size: 24px;
+  font-weight: bold;
+}
