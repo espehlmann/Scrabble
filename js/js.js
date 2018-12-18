@@ -366,10 +366,10 @@ $( function() {
               countTiles(currentId, 0, 0);
               spacesPlayed[tilesPlayed] = 1;
         }
-    },
-    out: function(event, ui){
-    $(this).droppable('option', 'accept', '.drag-item');
-    }
+      }
+  //    out: function(event, ui){
+  //    $(this).droppable('option', 'accept', '.drag-item');
+  //    }
 });
 });
 
@@ -387,10 +387,10 @@ $( function() {
               countTiles(currentId, 0, 0);
               spacesPlayed[tilesPlayed-1] = 2;
         }
-    },
-    out: function(event, ui){
-    $(this).droppable('option', 'accept', '.drag-item');
-    }
+      }
+  //    out: function(event, ui){
+  //    $(this).droppable('option', 'accept', '.drag-item');
+  //    }
 });
 });
 
@@ -409,10 +409,10 @@ $( function() {
               countTiles(currentId, 1, 0);
               spacesPlayed[tilesPlayed-1] = 3;
         }
-    },
-    out: function(event, ui){
-    $(this).droppable('option', 'accept', '.drag-item');
-    }
+      }
+  //    out: function(event, ui){
+  //    $(this).droppable('option', 'accept', '.drag-item');
+  //    }
 });
 });
 
@@ -430,10 +430,10 @@ $( function() {
               countTiles(currentId, 0 ,0);
               spacesPlayed[tilesPlayed-1] = 4;
         }
-    },
-    out: function(event, ui){
-    $(this).droppable('option', 'accept', '.drag-item');
-    }
+      }
+  //    out: function(event, ui){
+  //    $(this).droppable('option', 'accept', '.drag-item');
+  //    }
 });
 });
 
@@ -451,10 +451,10 @@ $( function() {
               countTiles(currentId, 0, 0);
               spacesPlayed[tilesPlayed-1] = 5;
         }
-    },
-    out: function(event, ui){
-    $(this).droppable('option', 'accept', '.drag-item');
-    }
+      }
+  //    out: function(event, ui){
+  //    $(this).droppable('option', 'accept', '.drag-item');
+  //    }
 });
 });
 $( function() {
@@ -471,10 +471,10 @@ $( function() {
               countTiles(currentId, 0 ,0);
               spacesPlayed[tilesPlayed-1] = 6;
         }
-    },
-    out: function(event, ui){
-    $(this).droppable('option', 'accept', '.drag-item');
-    }
+  }
+//    out: function(event, ui){
+//    $(this).droppable('option', 'accept', '.drag-item');
+//    }
 });
 });
 $( function() {
@@ -491,10 +491,10 @@ $( function() {
               countTiles(currentId, 0 ,1);
               spacesPlayed[tilesPlayed-1] = 7;
         }
-    },
-    out: function(event, ui){
-    $(this).droppable('option', 'accept', '.drag-item');
-    }
+      }
+  //    out: function(event, ui){
+  //    $(this).droppable('option', 'accept', '.drag-item');
+  //    }
 });
 });
 $( function() {
@@ -511,10 +511,10 @@ $( function() {
               countTiles(currentId, 0, 0);
               spacesPlayed[tilesPlayed-1] = 8;
         }
-    },
-    out: function(event, ui){
-    $(this).droppable('option', 'accept', '.drag-item');
-    }
+      }
+  //    out: function(event, ui){
+  //    $(this).droppable('option', 'accept', '.drag-item');
+  //    }
 });
 });
 $( function() {
@@ -531,10 +531,10 @@ $( function() {
               countTiles(currentId, 0 ,0);
               spacesPlayed[tilesPlayed-1] = 9;
         }
-    },
-    out: function(event, ui){
-    $(this).droppable('option', 'accept', '.drag-item');
-    }
+      }
+  //    out: function(event, ui){
+  //    $(this).droppable('option', 'accept', '.drag-item');
+  //    }
 });
 });
 $( function() {
@@ -551,10 +551,10 @@ $( function() {
               countTiles(currentId, 0 ,0);
               spacesPlayed[tilesPlayed-1] = 10;
         }
-    },
-    out: function(event, ui){
-    $(this).droppable('option', 'accept', '.drag-item');
-    }
+      }
+  //    out: function(event, ui){
+  //    $(this).droppable('option', 'accept', '.drag-item');
+  //    }
 });
 });
 $( function() {
@@ -571,10 +571,10 @@ $( function() {
               countTiles(currentId, 0, 0);
               spacesPlayed[tilesPlayed-1] = 11;
         }
-    },
-    out: function(event, ui){
-    $(this).droppable('option', 'accept', '.drag-item');
-    }
+      }
+  //    out: function(event, ui){
+  //    $(this).droppable('option', 'accept', '.drag-item');
+  //    }
 });
 });
 $( function() {
@@ -591,10 +591,10 @@ $( function() {
               countTiles(currentId, 0 ,0);
               spacesPlayed[tilesPlayed-1] = 12;
         }
-    },
-    out: function(event, ui){
-    $(this).droppable('option', 'accept', '.drag-item');
-    }
+      }
+  //    out: function(event, ui){
+  //    $(this).droppable('option', 'accept', '.drag-item');
+  //    }
 });
 });
 $( function() {
@@ -612,10 +612,10 @@ $( function() {
               countTiles(currentId, 1, 0);
               spacesPlayed[tilesPlayed-1] = 13;
         }
-    },
-    out: function(event, ui){
-    $(this).droppable('option', 'accept', '.drag-item');
-    }
+      }
+  //    out: function(event, ui){
+  //    $(this).droppable('option', 'accept', '.drag-item');
+  //    }
 });
 });
 $( function() {
@@ -632,10 +632,10 @@ $( function() {
               countTiles(currentId, 0, 0);
               spacesPlayed[tilesPlayed-1] = 14;
         }
-    },
-    out: function(event, ui){
-    $(this).droppable('option', 'accept', '.drag-item');
     }
+//    out: function(event, ui){
+//    $(this).droppable('option', 'accept', '.drag-item');
+//    }
 });
 });
 $( function() {
@@ -652,13 +652,12 @@ $( function() {
               countTiles(currentId, 0 ,0);
               spacesPlayed[tilesPlayed-1] = 15;
         }
-    },
-    out: function(event, ui){
-    $(this).droppable('option', 'accept', '.drag-item');
-    }
+      }
+  //    out: function(event, ui){
+  //    $(this).droppable('option', 'accept', '.drag-item');
+  //    }
 });
 });
-
 
 // Creator: Jesse Heines
 // Use to keep track of each tile piece, their associated value and amount.
